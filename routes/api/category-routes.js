@@ -35,14 +35,21 @@ router.get("/:id", async (req, res) => {
 
 router.post("/", (req, res) => {
   // create a new category
+  
 });
 
 router.put("/:id", (req, res) => {
   // update a category by its `id` value
 });
 
-router.delete("/:id", (req, res) => {
+router.delete("/:id", async (req, res) => {
   // delete a category by its `id` value
+  const categoryData = await Category.destroy({
+    where: {
+      id: req.params.id,
+    },
+  });
+  res.json(categoryData);
 });
 
 module.exports = router;
