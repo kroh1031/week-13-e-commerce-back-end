@@ -7,7 +7,7 @@
 This is the back end for an e-commerce site that includes a functional Express.js API to use Sequelize to interact with a MySQL database.
 
 Here's the link to my walkthrough video that demonstrates the functionality of the e-commerce back end:  
-[_E-Commerce Back End Project Walkthrough Video!_](https://drive.google.com/)
+[_E-Commerce Back End Project Walkthrough Video!_](https://drive.google.com/file/d/1Btz8mraDg-0wATMyxMrRBrmHUcG8FmRL/view)
 
 ## Table of Contents
 
